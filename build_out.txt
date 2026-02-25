@@ -1,0 +1,30 @@
+
+> my_react_man@0.0.0 build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+<script src="/src/tailwind.config.js"> in "/index.html" can't be bundled without type="module" attribute
+transforming...
+[32m✓[39m 20 modules transformed.
+[31m✗[39m Build failed in 466ms
+[31merror during build:
+[31m[vite:esbuild] Transform failed with 1 error:
+C:/my_react_man/src/AdminPages/Reportgenrate.jsx:299:0: ERROR: Expected ")" but found "export"[31m
+file: [36mC:/my_react_man/src/AdminPages/Reportgenrate.jsx:299:0[31m
+[33m
+[33mExpected ")" but found "export"[33m
+297 |  }
+298 |  
+299 |  export default Reportgenrate;
+    |  ^
+[31m
+    at failureErrorWithLog (c:\my_react_man\node_modules\esbuild\lib\main.js:1467:15)
+    at c:\my_react_man\node_modules\esbuild\lib\main.js:736:50
+    at responseCallbacks.<computed> (c:\my_react_man\node_modules\esbuild\lib\main.js:603:9)
+    at handleIncomingPacket (c:\my_react_man\node_modules\esbuild\lib\main.js:658:12)
+    at Socket.readFromStdout (c:\my_react_man\node_modules\esbuild\lib\main.js:581:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)[39m

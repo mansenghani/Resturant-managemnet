@@ -1,0 +1,40 @@
+[
+  {
+    "_id": "prqnhufxx",
+    "reservationId": "test-123",
+    "name": "Test",
+    "email": "test@example.com",
+    "phone": "123",
+    "guests": "2",
+    "date": "2024-01-01",
+    "time": "12:00",
+    "status": "PENDING",
+    "createdAt": "2026-02-25T08:52:14.337Z"
+  },
+  {
+    "_id": "wrh02t8rh",
+    "reservationId": "KK-2026-4766",
+    "name": "Man Senghani",
+    "email": "mansenghani7@gmail.com",
+    "phone": "8128316056",
+    "guests": "2 People",
+    "date": "2026-02-25",
+    "time": "19:00",
+    "requests": "hahajdhjha",
+    "status": "PENDING",
+    "createdAt": "2026-02-25T08:53:11.787Z"
+  },
+  {
+    "_id": "ln91epa3e",
+    "reservationId": "KK-2026-9969",
+    "name": "bhavik ",
+    "email": "mansenghani7@gmail.com",
+    "phone": "+914239147614",
+    "guests": "5+ People",
+    "date": "2026-03-13",
+    "time": "18:00",
+    "requests": "aaaa",
+    "status": "PENDING",
+    "createdAt": "2026-02-25T08:58:32.070Z"
+  }
+]
